@@ -1,0 +1,160 @@
+
+SCRUM - JIRA
+--------------
+
+What is Agile?
+->agile is an approach to software development under which requirements and solutions
+evolve through the collaborative effort of self organizing and cross functional teams
+and their customer/end user,
+
+->Both development and testing activities are concurrent unlike the Waterfall model.
+
+dev -> Test -> goes in Parallel.
+
+Epics, Story and Task ?
+---------------------
+Epics -> Defines the business needs.
+Feature -> Story1, Story2 -> defines the customer needs
+Story1-> Task1,Task2
+Story2-> Task1,Task2
+
+Epics is High level/bigger requirements,Story is smaller requirements.
+eg:As a user I need to use online Banking application
+
+Story1 : As a user I can login into online banking application.
+Story2 : As a user I can check my balance in my account.
+--
+--
+
+Story1: As a user I can login into ...
+Dev tasks
+---
+Review the story
+Estimate the story
+designing
+...
+
+QA
+---
+Review the story
+Test Cases
+Report bug
+....
+
+Epics are defined by Product Owner.
+
+Business Analysist : Before Product owner, he will analyse business
+
+
+Agile Roles:
+-----------
+SCRUM ROLES:
+-------------
+The Scrum Master:(always talks about process)
+-> A Scrum master is the facilitator for an agile development team.
+-> Enable close corporation across all the roles and functions
+
+Product Owner : Responsible for getting the requirements from the customer/stakeholders
+--------------
+-> Define the features of the product
+-> Decide on release date and content
+-> Prioritize feature according to market values
+-> Adjust features and priority every iteration , as needed
+-> Accept or reject work results.
+
+SCRUM Team:
+-> Developers and QA -> Goal: Deliver product to customer
+
+
+DoR -> Definition of Ready -> Story is ready for testing.
+DoD -> Definition of Done -> Story is successfully integrated and tested
+
+DoR:
+----
+-> User story is clear.
+-> User story is testable
+-> User story is feasible
+-> User story is defined
+-> User story acceptance criteria defined
+-> User story Dependencies identified
+-> User story sized by Development team
+-> Scrum team accepts user experience artifacts
+-> Performance criteria identified, where appropriate
+-> Scalability criteria identified, where appropriate
+-> Person who will accept the user story is defined
+-> Team has a good idea what it mean to Demo the User story
+
+Sample Definition of DOne:
+-> Code produced (all "to Do" items is code completed)
+-> Code is commented, checked in and run against current version in source control
+-> Peer review
+-> Builds without Error
+-> Unit test is written and passed
+-> Passed UAT(User acceptance Test) and signed off as meeting requirements
+-> Any build/ deployment / documented / communicated
+-> Relevant documentation updated
+-> Remaining hours for task set to zero and task closed
+
+
+Product Backlogs: prepared by  product owner, which contains requirements from customer.
+usually excel sheet.
+
+Sprint Backlogs : committed stories.
+
+Story point: Estimation given by tester and developer for specific story.
+usually Fibonacci sequence : 1,2,3,5,8,13,21
+
+Sprint Review :  
+Sprint Retrospective :   
+1.what went well?
+2.What went wrong?
+3.Improvement areas?
+
+Scrum Board:
+Stories, ToDo, InProgress, Testing,Done.
+
+Scrum Master -> conducts Scrum Meeting.
+Product Owner -> Prepare Product Backlogs.
+
+Advantage of agile SCRUM:
+-> We can save time and cost of the project
+-> The quality can be ensured because each and every sprint will be tested multiple times.
+-> The requirements change can be accepted at any level of the project maintenance.
+-> All are participating in Scrum Meeting so that transparency can be maintained.
+-> Each and every sprint we are delivering to the client so we can maintain the customers satisfaction
+and we can avoid delivery risk of the project.
+
+
+Jira Tool:
+----------
+-> Manage Agile Process.
+   -> create backlogs, Create Sprints, Tasks, Update story in scrum board
+-> Can write Test Cases
+-> Execute test cases update the status of Test cases.
+
+
+Atlassian is an Australian company.
+
+Jira project creation :
+Dashboard -> Project -> Create project -> Project Name -> Create
+
+How to add users/People in Jira
+-----------------------------
+Jira Settings -> User Management -> Add more people
+
+Issue Types in Jira:
+------------------
+Epics, Story, Task/SubTask, Bug, Test.
+
+
+
+
+
+
+
+
+
+
+
+
+
