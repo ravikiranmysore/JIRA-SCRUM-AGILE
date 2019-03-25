@@ -1,0 +1,117 @@
+
+Manual Testing:
+----------------
+Phase 1.: Testing Concepts
+Phase 2 : Software Testing Project
+Phase 3 : Tools
+
+SDLC : Software Development Lifecycle Process
+Stages : Requirement, Design,Code, Test,Deploy,Delivery.
+
+
+Specific customer -> IT ,is called Project
+Market requirements -> IT, is called Product.
+
+Service based company -> Tailored cloths
+Product based company -> Ready made cloths
+
+STLC : Software Testing Lifecycle Process
+Stages : Planning, Scenarios, regression etc
+
+ 
+Tester/QA vs Developer/Programmer
+Developer Testing is called "Unit Testing"(Internal Logics)
+Integration Testing -> output of one module,depends on other test.
+
+Unit Testing/Integration Testing is Whitebox testing.
+System Testing according to customer requirements, UAT(user acceptance testing) is Black Box Testing.
+
+V-Model : 
+Verification -> Review, Walkthrough, Inspection.
+static testing -> Verifying Documentation
+
+Review : Requirement review,Design review,Code review,Test plan/case Review.
+
+Walkthrough : 
+Formal review by group,discuss/raise the issues at peer level
+It doesnt have minutes of the meet.
+It can happen any time.
+
+Inspection : 
+Author, Writer, Moderator.
+Team(QA,Dev,Project management team)
+
+Validation : UAT,System TEsting, Integration Testing,Unit Testing.
+Dynamic testing -> Test software/application after software is done.
+
+QC / QA / QE :
+--------------
+Quality assurance ,Quality Control, Quality Engineering
+
+QA-> Complete process,Defining,Preventing of defeats
+QC-> Testing part of software(identifying/detecting defeats)
+QE-> Preventing the defeats 
+
+Testers = QC
+Leads , Manager = QA
+QE -> Automation Testers
+
+System Testing(Black box testing) : 
+----------------------------------
+Understand Requirements 
+Write Test case 
+Execute Test cases 
+Find defeats and report to developer 
+Participate different review meeting 
+
+
+Writing and executing automation scripts
+Generate, Status and send send to managemer
+
+
+Functional Testing and Non Functional testing
+
+
+Test Design Techniques :
+------------------------
+-> Boundary Value analysis(BVA)
+-> Equivalence class partitioning
+-> Decision Table based testing
+-> State Transition
+-> Error Guessing.
+
+BVA : Testing at the boundaries  
+Min, Min - 1, Min + 1
+Max, Max - 1, Max + 1
+This is a range based testing
+it includes max,min, inside and outside boundary.
+
+Equivalence Class Partition : Actual Value.
+
+Decision Table : Cause effect table
+we take condition as inputs and actions as outputs.
+eg :Transferring money
+
+ 
+State Transition 
+-> Changes in input condition change the state of the AUT
+-> This testing technique allows the tester to test the behavior of an AUT.
+-> The tester can perform this action by entering various input conditions in a sequence
+-> In state transition technique, the testing team provides positive as well as negative
+input test values for evaluating the system behavior.
+eg: ATM card (pin)
+
+
+Error Guessing:
+error guessing is one of the testing technique used to find bugs in a software application based on
+testers prior experience, In error guessig we dont follow any specific rule.
+some of the example are;
+- submitting a form without entering values
+- Entering invalid values such as entering alphabets in the numeric field.
+
+Guidelines for Error Guessing:
+- The test should use the previous experience of testing similar application
+- understanding of the system under test.
+- Knowledge of typical implementation errors
+- Remember previously troubled areas.
+- Evaluate historical data and test results.
