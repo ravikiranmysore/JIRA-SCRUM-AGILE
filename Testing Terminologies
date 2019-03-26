@@ -1,0 +1,78 @@
+
+Equivalence Class Partitioning:
+- Inputs of the software or system are divided into groups that are expected to exhibits similar behavior, so they are
+  likely to be proposed in the same way. hence selecting one input from each group to design the test case.
+- It helps to reduce the total number of test case from infinite to finite, The selected test cases from these groups
+   ensure coverage of all possible scenarios.
+   
+   
+Testing Terminologies:
+----------------------
+Sanity Testing and Smoke testing:
+--------------------------------
+-> Initial builds when the software is relatively unstable -> Verifies critical functionalities like application starts successfully -> SMOKE TESTING.
+smoke it all about checking stability of the software
+
+-> Relatively stable builds after multiple rounds of regression tests -> Verifies new funtionality,bug fixes in the build -> SANITY TESTING.
+this is done to verify rationality of the system in order to proceed with rigorus testing.
+
+if its fails, we will reject the build.
+Goes by many names Build verification test, Tester acceptance test, shakedown etc
+
+Re-testing vs Regression Testing:
+---------------------------------
+- Repeated testing of an already tested program, after modification, to discover any defects introduced or uncovered as a result of the changes
+  in the software being tested or in another related or unrelated software components.
+- Usually, we do regression testing in the following cases:
+  - New functionalities are added to application.
+  - Change requirement
+  - Defect fixes
+  - Performance issue fixes
+  - Environmental change(updating DB from MySql to oracle etc).
+
+ Once the bug is fixed, tester need to do RETesting to verify bug
+ Regression testing is testing also the authenticity of the software(correct logical flow)
+ 
+Globalization Testing vs Localization Testing:
+---------------------------------------------
+L10N Testing: Is the software testing process for checking the localized version of a product for that particular culture or locale settings.
+UI and content testing.
+
+I18N testing : this test is to ensure that application can function in any culture or locale.
+
+Product -> Product is designed to work for specific culture or local -> Localization testing.
+Product -> Product is designed to work in any culture or local -> Gloablization Testing.
+Eg : Date format, is different for different countries.
+
+END to END Testing:
+-> Testing the overall functionalities of the system including the data integration among all the modules is called end to end testing.
+
+eg: login,add new customer, edit customer, delete customer,logout ---> Test entire functionality( test cases )
+
+Exploratory testing:(0 knowledge-> learning)
+---------------------
+-> It is all about discovery, investigation and learning.
+-> It emphasizes on personal freedom and responsibility of the individual tester.
+-> Test cases are not created in advance but testers check system on the fly.
+-> The focus of exploratory testing is more on testing as a thinking activity.
+
+When to use this?
+-> Exploratory testing can  be used extensively when the tester team has experienced testers.
+Early iteration is required, Critical application, new testers entered into the team.
+
+Adhoc Testing:(Random testing )
+-> This is an informal testing type with a aim to break the system.
+-> Usually unplanned activity.
+-> Doesnt ahve any test design techiques to create test cases, In fact is does not create test cases althogeher.
+This testing is primarily perfomed if the knowledge of tester in the system under test is very high.
+-> Tester randomly test the application without any test cases or any business requirement documents.
+
+we know little about application and we are testing randomly.
+
+
+AdHoc Testing, Monkey Testing, Exploratory Testing:
+all 3 are very similar.
+Adhoc and monkey is to break the application, Exploratory is about learning application.
+adhoc is for any application.
+Monkey is for Game application.
+Exploratory is any application which is new to tester.
