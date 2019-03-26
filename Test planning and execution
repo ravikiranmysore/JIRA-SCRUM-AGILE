@@ -1,0 +1,74 @@
+Project:
+--------
+Human Resource Management(HRM) application
+Developed on : PHP, MySql database,Apache Http servers
+Use: both windows and Linux
+
+1.ADMIN module
+2.ESS module(Employee self service )
+
+Admin Module:
+-----------
+-> Listing employees/users, Adding employees,Configure leaves, time sheets, recruitment, performace of employees.
+
+ESS module:
+------------
+-> Leaves,filling time sheets, my info, performace tracking.
+
+ 
+ STLC:
+ 1.Understanding requirements
+ 2.Test scenarios(what are the areas to be tested)
+ 3.Test planning
+ 4.Test cases(how to test scenarios - steps)
+ 5.Test execution
+ 6.Identifying defects and reporting
+ 7.Closure
+ 
+Understanding requirements:
+In agile we have user stories.
+Functional Requirement Specification:
+
+Test scenarios : Serial No | Requirement ID | Scenario
+scenarioss: ESS user login, ESS user can view personal details, etc etc
+ 
+Test Plan : documents which contains scope, risks, entry and exit criteria  etc
+ 
+Test cases :How to test, step by step breakdown with more details.
+-> for every scenarios we need to create test cases:
+   1.Verify or check .......(Test case title)
+   2.Steps : 1.Launch browser
+             2.Open URL
+			 3.Provide valid ESS username
+			 4.Provid valid ESS Password
+			 5.Click on Log in.
+			 
+   3.Test data, 
+   4.Expected results.		
+   
+Test execution : 
+1.Test cases review & approved
+2.Build from Dev team(Integrated package)
+3.Deploy the build on QA environment.
+4.Release note along with build.
+   - what is the new functionality implemented.
+   - What are the fixes available in tnis build.
+   - Installation/Deployment steps.
+   
+Test Phases:
+Initial stage - 
+  1.smoke and sanity testing.
+  -> Test build installation process (S1(high Severity )critical / Showstopper / Blocker ) smoke testing.
+  -> Sanity test : Main functions is working or not(TAT, BVT(builder verification test),Shakedown test)
+		 
+  2. Functional Testing : Multiple Cycles 
+	- Progression Testing : 
+	- Regression Testing : Performed on new bugs on dependent functionalities.
+	- Re-Testing Testing : Performed on new bugs.
+	
+	Create BUG REPORT.
+	
+ sign-off : All test cases executed and passed, All bugs are closed,There is no P0,P1,P2 bugs.
+ Management team conducts a review meeting along with the team.
+ 
+ Handover the final build/certificate build to the UAT team.
