@@ -1,0 +1,120 @@
+STLC : Software Testing Life Cycle
+-----------------------------------
+Requirement Analysis -> Test Planning -> Test case Development -> Environmental Setup -> Test Execution -> Test Cycle Closure.
+
+Traceability Matrix : 
+  excel documents which contails both required and test cases, mapping of requirement and testcases.
+  
+
+Test Plan :-> scope,quality objective, Roles and resposibility, Test levels, Bug triage, suspension criteria etc
+Test Case -> Use case -> describes requirement, prepared by Business analyst
+             Actor, Action/Flow, Outcome.
+		  -> Test Scenario:(what to test)
+		    Possible area to be tested
+		  -> Test Case: Describe test steps, Prepared by Test Engineer.
+		    How to test, Describe test steps,expected results and actual results.
+
+
+Test Case vs Test Scenario:
+--------------------------
+-> Test case consist of set of input values, execution precondition, expected result and execution post condition, developed to cover certain test condition.
+-> Test scenarios is nothing but test procedure.
+
+-> Test Case are derived from test scenarios(what to be tested),The Scenario are derived from use cases.TEST CASE(how to be tested).
+
+eg: Login button
+S1: Click the button without entering UN and PW
+S2: CLick the button by only entering UN
+S3: CLick the button while entering wrong UN and wrong PW.
+
+Test Suites: its a group of test cases which belong to same category.
+
+Test plan -> Test Suite 1 -> TC1,TC2,TC3 etc
+          -> Test Suite 2 -> TC1,TC2,TC3 etc.
+		  
+Test case: is a set of action executed to verify a particular feature or functionality of software application.
+Contents of Test case:(excel sheet)
+1.Test Case ID, Test Case Title, Description, Precondition, Priority(p0,p1,p2,p3), Requirement ID, Steps/Actions, Expected Results, Test Data.
+
+
+Requirement Traceability Matrix(RTM)
+-----------------------------------
+RTM captures all requirements proposed by the client.
+In other words, it is documents that maps and traces user requirement with test cases.
+Main purpose of RTM is to see that all test cases are covered so that no functionality should miss while doing software testing.
+-> RTM - Parameters includes---> Requirement ID(Business/Technical), Test case ID.
+
+Advantage of Requirement Traceability Matrix:
+-> It confirms 100 test coverage.
+-> It highlights any requirements missing or documents inconsistencies.
+
+Test Environment: is a set up of software and hardware for testing teams to execute test cases. In other words, it supports test execution with hardware, software
+                  network configured.
+				  Test Bed or Test environment is configured as per the need to Application Under Test(AUT).
+				  
+Test bed : is a software development environment, it allows the developers to test their modules without affecting the live production servers.
+The test bed is not confined to developers only but also used by testers. It is referred as test environment as well.
+
+
+
+Test Execution : 
+During this phase test team will carry out the testing based on test plans and test cases prepared.
+Entry Criteria: Test cases, Test Data, Test Plan, Test Strategy
+Acivities : Status of test case are marked Passed,Failed, Blocked,Run etc
+            Docmentation of failed, make bug ids in jira, Restest, Defeats are tracked till closure.
+Deliverable : provide defect and test case execution report with completed result.
+
+
+Guidelines for Test Execution:
+--------------------------------
+Build being deployed to the qualiy assurance environment is the most important part of the test execution cycle.
+Test execution is done in QA environment
+Test execution happens in at least 2 cycles.
+Test execution phase consists executing the test cases + Test scripts(if automation)
+Exploratory tests are carried out once the build is ready to testing.
+
+Defects/Bugs:
+-------------
+Any mismatched functionality found in application is called Defects/Bugs/issue.
+During test, reporting mismatchs as defects to developers through templates or using tools
+Defeat reporting tools are Clear Quest, DevTrack, Jira, QualityCenter,Bug Jilla etc.
+
+Defect report contents:
+Defect_id, Defect description,Version,Step,Date raised, Detected by, status, Fixed by, Date Closed.Severity. Priority.
+
+Defect classification : Severity,Critical,Blocker ,major,Minor, High,Medium,Low etc
+						Priority: P1,P2.P3(high, Medium.Low)
+
+
+A very low severity with high priority:
+A very high severity with low priority:
+
+Defect Resolution : after recieveing the defect report from testing team, development team conducts a review meeting to fix defects.
+They send a resolution type to the testing team for further communication.
+
+Resolution types are : Accept, Reject, Duplicate, Enhancement, Need more infomation, Not reproducible, fixed, As Designed.
+
+
+Defect Metrics: Defect rejection ratio, Defeat Leakage ratio.
+
+Test Cycle closure report at the end.
+
+QA/ Testing Activities:
+----------------------
+1.Understanding the requirements and functional specifications of the application
+2.Identifying required test scenarios
+3.Designing testcases to validate application
+4.Execute test cases to valid application
+5.Log test results
+6.Defect reporting and tracking
+7.Retest fixed defects of previous build
+8.Perform various type of testing assigned by Test Lead(functionality, Usablility,user interface and compatibility etc)
+9.Report to test lead about the status of assigned tasks
+10. Partcipated in regular team meeting
+11.Creating automation scripts for regression testing
+12.Provides recommundation on wheather or not the application is ready for production.
+
+Test metrics : Covers number of passed, failed.critial, higher, lower defects etc
+
+Test efficiency: the resources consumed in order to achieve their goal.
+Test Effectiveness: How well the user achieves the goal they set out to achieve using the system(Process)
